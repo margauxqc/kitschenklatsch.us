@@ -15,15 +15,48 @@ body, html {
 	font-family: 'Nixie One', cursive;
 	font-size: 2em;
 	max-width: 90%;
+	padding-top: 1em;
+	padding-bottom: 3em;
+	padding-left: 1em;
+	padding-right: 1em;
+	box-shadow: 5px 5px 5px rgba(0,0,0,.1);
 }
 
 .footer-text {
 	font-family: 'Nixie One', cursive;
 	padding-bottom: 1em;
+	padding-left: 20px;
 }
 
 .content {
 	display: block;
 	padding-top: 4em;
 	padding-bottom: 4em;
+	padding-left: 2em;
+}
+
+.title {
+	font-family: 'Petit Formal Script', cursive; 
+	font-size: 6em;
+	padding-left: 60px;
+}
+
+.tagline {
+	font-family: 'Petit Formal Script', cursive; 
+	font-size: 2em;
+	padding-left: 60px;
+	padding-bottom: 10px;
+	min-width: 50%;
+}
+
+.border-line {
+	border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.border {
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	border-top: 1px solid rgba(0,0,0,.1);
+	border-left: 1px solid rgba(0,0,0,.1);
+	border-right: 1px solid rgba(0,0,0,.1);
+	margin-top: 1em;
 }
