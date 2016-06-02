@@ -47,7 +47,10 @@ body, html {
 .title {
 	font-family: 'Petit Formal Script', cursive; 
 	font-size: 6em;
+	color: red;
 	padding-left: 60px;
+	padding-top: 250px;
+	mix-blend-mode: multiply;
 }
 
 .tagline {
@@ -72,4 +75,9 @@ body, html {
 
 .image {
 	float: left;
+}
+
+.bg {
+	background: url("images/head.png") no-repeat;
+	background-position: left 60px top 0px;
 }
