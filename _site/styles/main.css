@@ -47,18 +47,21 @@ body, html {
 .title {
 	font-family: 'Petit Formal Script', cursive; 
 	font-size: 6em;
-	color: red;
-	padding-left: 60px;
+	color: #ff3e31;
 	padding-top: 250px;
+	display: flex;
+	justify-content: center;
 	mix-blend-mode: multiply;
 }
 
 .tagline {
 	font-family: 'Petit Formal Script', cursive; 
 	font-size: 2em;
-	padding-left: 60px;
+	display: flex;
+	justify-content: center;
 	padding-bottom: 10px;
 	min-width: 50%;
+	color: #424e54;
 }
 
 .border-line {
@@ -80,8 +83,10 @@ body, html {
 }
 
 .bg {
-	background: url("images/head.png") no-repeat;
-	background-position: left 60px top 0px;
+	background: url("images/kaffee.png") no-repeat;
+	background-position: center top;
+	padding-top: -2em;
+	background-color: gray;
 }
 
 .olist {
@@ -95,13 +100,13 @@ li {
 
 .ulist {
 	list-style: none;
-	/*
+	
 	height: 10em;
 	border: 1px solid rgba(0,0,0,.1);
 	overflow: auto;
 	height: 8em;
 	background: radial-gradient(at top, rgba(0,0,0,.2), transparent 70%) no-repeat;
-	background-size: 100% 15px;*/
+	background-size: 100% 15px;
 }
 
 .ulist li:before {
