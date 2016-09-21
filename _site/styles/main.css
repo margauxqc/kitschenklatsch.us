@@ -12,14 +12,16 @@ body, html {
 }
 
 .text {
-	font-family: 'Nixie One', 'Didot';
-	font-size: 2em;
+	font-family: 'Josefin Sans', 'Didot';
+	font-size: 1em;
 	max-width: 90%;
 	padding-top: 1em;
 	padding-bottom: 3em;
 	padding-left: .7em;
 	padding-right: 1em;
-	box-shadow: 10px 10px 0 rgba(0,0,0,.1);
+	box-shadow: 10px 10px 0 rgba(193,229,245,1);
+	/*mix-blend-mode: multiply;*/
+	background-color: snow;
 }
 
 .clearfix:after {
@@ -32,7 +34,7 @@ body, html {
 }
 
 .footer-text {
-	font-family: 'Nixie One', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	padding-bottom: 1em;
 	padding-left: 20px;
 }
@@ -45,13 +47,16 @@ body, html {
 }
 
 .title {
-	font-family: 'Petit Formal Script', cursive; 
+	font-family:  'Josefin Sans', sans-serif;
+	font-weight: bold;
 	font-size: 6em;
 	color: #ff3e31;
 	padding-top: 250px;
+	padding-left: 20px;
 	display: flex;
 	justify-content: center;
 	mix-blend-mode: multiply;
+	line-height: 85%;
 }
 
 .tagline {
@@ -59,14 +64,16 @@ body, html {
 	font-size: 2em;
 	display: flex;
 	justify-content: center;
-	padding-bottom: 10px;
+	padding-bottom: 65px;
+	padding-left: 20px;
 	min-width: 50%;
 	color: #424e54;
 }
 
 .border-line {
 	border-bottom: 1px solid rgba(0,0,0,.2);
-	box-shadow: 0px 10px 0 rgba(0,0,0,.1);
+	box-shadow: 0px 10px 0 rgba(193,229,245,.5);
+	mix-blend-mode: multiply;
 }
 
 .border {
@@ -86,7 +93,14 @@ body, html {
 	background: url("images/kaffee.png") no-repeat;
 	background-position: center top;
 	padding-top: -2em;
-	background-color: gray;
+	background-color:#def;
+}
+
+.backbg {
+	background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+	radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+	background-size:80px 80px;
+	background-position:0 0, 40px 40px;
 }
 
 .olist {
@@ -100,12 +114,12 @@ li {
 
 .ulist {
 	list-style: none;
-	
+	padding-top: 0.5em;
 	height: 10em;
 	border: 1px solid rgba(0,0,0,.1);
 	overflow: auto;
-	height: 8em;
-	background: radial-gradient(at top, rgba(0,0,0,.2), transparent 70%) no-repeat;
+	height: 10em;
+	background: radial-gradient(at top, rgba(0,0,0,.1), transparent 70%) no-repeat;
 	background-size: 100% 15px;
 }
 
@@ -123,4 +137,10 @@ li {
 
 h1 {
 	font-family: Ampersand, 'arial';
+}
+
+.recipetitle {
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 150%;
 }
