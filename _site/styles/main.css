@@ -4,6 +4,18 @@
 	left: 0;
 	width: 100%;
 	padding-top: 10em;
+
+}
+
+.footerinfo {
+	margin-bottom: 2em;
+}
+
+header {
+	background: url("images/kaffee.png") no-repeat;
+	background-position: center top;
+	padding-top: -2em;
+	background-color:#def;
 }
 
 body, html {
@@ -11,17 +23,38 @@ body, html {
 	height: 100%;
 }
 
+.websitelink {
+	font-family: 'Petit Formal Script', cursive; 
+	font-size: 1em;
+	color: #424e54;
+	float: right;
+	margin-top: 2em;
+	margin-right: 2em;
+	text-align: right;
+}
+
+.menu {
+	font-family: 'Petit Formal Script', cursive; 
+	font-size: 2em;
+	color: #424e54;	
+}
+
 .text {
 	font-family: 'Josefin Sans', 'Didot';
 	font-size: 1em;
 	max-width: 90%;
+	background-color: snow;
+
+}
+
+.textcontent {
 	padding-top: 1em;
 	padding-bottom: 3em;
 	padding-left: .7em;
 	padding-right: 1em;
-	box-shadow: 10px 10px 0 rgba(193,229,245,1);
-	/*mix-blend-mode: multiply;*/
-	background-color: snow;
+	box-shadow: 10px 10px 0 rgba(193,229,245,.5);
+	mix-blend-mode: multiply;
+	color: #424e54;
 }
 
 .clearfix:after {
@@ -70,6 +103,13 @@ body, html {
 	color: #424e54;
 }
 
+.recipetitle {
+	color: #ff3e31;
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 150%;
+}
+
 .border-line {
 	border-bottom: 1px solid rgba(0,0,0,.2);
 	box-shadow: 0px 10px 0 rgba(193,229,245,.5);
@@ -81,7 +121,7 @@ body, html {
 	border-top: 1px solid rgba(0,0,0,.1);
 	border-left: 1px solid rgba(0,0,0,.1);
 	border-right: 1px solid rgba(0,0,0,.1);
-	margin-top: 1em;
+	margin-top: 2em;
 }
 
 .image {
@@ -90,17 +130,8 @@ body, html {
 }
 
 .bg {
-	background: url("images/kaffee.png") no-repeat;
-	background-position: center top;
-	padding-top: -2em;
-	background-color:#def;
-}
-
-.backbg {
-	background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
-	radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
-	background-size:80px 80px;
-	background-position:0 0, 40px 40px;
+background-color: #def;
+background-image: repeating-linear-gradient(60deg, transparent, transparent 23px, rgba(255,255,255,.5) 2px, rgba(255,255,255,.5) 25px);
 }
 
 .olist {
@@ -139,8 +170,12 @@ h1 {
 	font-family: Ampersand, 'arial';
 }
 
-.recipetitle {
-	font-weight: bold;
-	font-size: 1.5em;
-	line-height: 150%;
+a {
+	color: #ff3e31;
+	text-decoration: none;
 }
+
+a:hover {
+	border-bottom: 1px solid;
+}
+
