@@ -69,7 +69,7 @@ body, html {
 .footer-text {
 	font-family: 'Josefin Sans', sans-serif;
 	padding-bottom: 1em;
-	padding-left: 20px;
+	padding-left: 30px;
 }
 
 .content {
@@ -177,5 +177,11 @@ a {
 
 a:hover {
 	border-bottom: 1px solid;
+}
+
+.ingredients {
+	font-family: 'Petit Formal Script', cursive; 
+	display: flex;
+	justify-content: center;
 }
 
