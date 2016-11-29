@@ -52,9 +52,9 @@ body, html {
 	padding-bottom: 3em;
 	padding-left: .7em;
 	padding-right: 1em;
-	box-shadow: 10px 10px 0 rgba(193,229,245,.5);
 	mix-blend-mode: multiply;
 	color: #424e54;
+	
 }
 
 .clearfix:after {
@@ -116,12 +116,19 @@ body, html {
 	mix-blend-mode: multiply;
 }
 
+
 .border {
-	border-bottom: 1px solid rgba(0,0,0,.1);
-	border-top: 1px solid rgba(0,0,0,.1);
-	border-left: 1px solid rgba(0,0,0,.1);
-	border-right: 1px solid rgba(0,0,0,.1);
 	margin-top: 2em;
+	background: snow;
+	background:
+		linear-gradient(135deg, transparent 15px, snow 0) top left,
+		linear-gradient(-135deg, transparent 15px, snow 0) top right,
+		linear-gradient(45deg, transparent 15px, snow 0) bottom left,
+		linear-gradient(-45deg, transparent 15px, snow 0) bottom right;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	filter: drop-shadow(8px 8px 0px rgba(167,214,245,.5));
+
 }
 
 .image {
