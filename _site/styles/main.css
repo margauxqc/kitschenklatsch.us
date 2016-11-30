@@ -30,7 +30,20 @@ body, html {
 	float: right;
 	margin-top: 2em;
 	margin-right: 2em;
-	text-align: right;
+	text-align: center;
+	background: snow;
+	background:
+		linear-gradient(135deg, transparent 15px, snow 0) top left,
+		linear-gradient(-135deg, transparent 15px, snow 0) top right,
+		linear-gradient(45deg, transparent 15px, snow 0) bottom left,
+		linear-gradient(-45deg, transparent 15px, snow 0) bottom right;
+	filter: drop-shadow(8px 13px 0px rgba(167,214,245,.5));
+	background-size: 51% 51%;
+	background-repeat: no-repeat;
+	padding-top: 2.5em;
+	padding-bottom: 3em;
+	padding-right: 1em;
+	padding-left: 1em;
 }
 
 .menu {
