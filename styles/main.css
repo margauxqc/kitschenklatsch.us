@@ -100,7 +100,7 @@ body, html {
 	font-size: 6em;
 	color: #ff3e31;
 	padding-top: 250px;
-	padding-left: 20px;
+	padding-left: 170px;
 	display: flex;
 	justify-content: center;
 	mix-blend-mode: multiply;
@@ -192,7 +192,7 @@ h1 {
 	font-family: Ampersand, 'arial';
 }
 
-a {
+.ared {
 	color: #ff3e31;
 	text-decoration: none;
 	background: linear-gradient(#ff3e31, #ff3e31) no-repeat;
@@ -204,6 +204,32 @@ a {
 	transition-timing-function: ease-out;
 	background-repeat: no-repeat;
 
+}
+
+.aonblue {
+	color: #424e54;
+	text-decoration: none;
+	background: linear-gradient(#424e54, #424e54) no-repeat;
+	background-size: 0% 1px;
+	background-position: 0 1.15em;
+	text-shadow: .05em 0 #c1e5f5, -.05em 0 #c1e5f5;
+	transition-property: background-size;
+	transition-duration: .4s;
+	transition-timing-function: ease-out;
+	background-repeat: no-repeat;
+}
+
+.aonwhite {
+	color: #424e54;
+	text-decoration: none;
+	background: linear-gradient(#424e54, #424e54) no-repeat;
+	background-size: 0% 1px;
+	background-position: 0 1.15em;
+	text-shadow: .05em 0 snow, -.05em 0 snow;
+	transition-property: background-size;
+	transition-duration: .4s;
+	transition-timing-function: ease-out;
+	background-repeat: no-repeat;
 }
 
 a:hover {
