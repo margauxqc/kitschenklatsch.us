@@ -38,6 +38,7 @@ body, html {
 	background-repeat: no-repeat;
 	padding: 4em 2em 4em 2em;
 }
+
 /*
 .websitelink:before {
 	content: "";
@@ -48,6 +49,7 @@ body, html {
 	display: block;
 	margin: 0 auto 1.5em;
 }*/
+
 .menu {
 	font-family: 'Petit Formal Script', cursive; 
 	font-size: 2em;
@@ -203,7 +205,6 @@ h1 {
 	transition-duration: .4s;
 	transition-timing-function: ease-out;
 	background-repeat: no-repeat;
-
 }
 
 .aonblue {
