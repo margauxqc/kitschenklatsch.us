@@ -147,6 +147,9 @@ body, html {
 	filter: drop-shadow(8px 13px 0px rgba(167,214,245,.5));
 
 }
+.imageright {
+	float: right;
+}
 
 .image {
 	float: left;
