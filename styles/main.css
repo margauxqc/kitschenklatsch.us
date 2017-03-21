@@ -2,7 +2,7 @@
 	background-color:rgb(193,229,245);
 	bottom: 0;
 	left: 0;
-	width: 100%;
+	right: 0;
 	padding-top: 10em;
 
 }
@@ -34,7 +34,7 @@ body, html {
 	background: #a6cfff;
 	background: 
 		url(../images/tag.png) center top / contain;
-	filter: drop-shadow(4px 8px 0px rgba(167,214,245,.5));
+	filter: drop-shadow(4px 8px 0px rgba(71,151,226,.4));
 	background-repeat: no-repeat;
 	padding: 4em 2em 4em 2em;
 }
@@ -72,6 +72,7 @@ body, html {
 	mix-blend-mode: multiply;
 	color: #424e54;
 	
+	
 }
 
 .clearfix:after {
@@ -105,7 +106,7 @@ body, html {
 	padding-left: 170px;
 	display: flex;
 	justify-content: center;
-	mix-blend-mode: multiply;
+	/*mix-blend-mode: multiply;*/
 	line-height: 85%;
 }
 
@@ -129,8 +130,8 @@ body, html {
 
 .border-line {
 	border-bottom: 1px solid rgba(0,0,0,.2);
-	box-shadow: 0px 10px 0 rgba(193,229,245,.5);
-	mix-blend-mode: multiply;
+	box-shadow: 0px 10px 0 rgba(71,151,226,.4);
+	/*mix-blend-mode: multiply;*/
 }
 
 
@@ -144,8 +145,9 @@ body, html {
 		linear-gradient(-45deg, transparent 15px, snow 0) bottom right;
 	background-size: 51% 51%;
 	background-repeat: no-repeat;
-	filter: drop-shadow(8px 13px 0px rgba(167,214,245,.5));
-
+	filter: drop-shadow(8px 13px 0px rgba(71,151,226,.4));
+	
+/*rgba(167,214,245,.5)*/
 }
 .imageright {
 	float: right;
@@ -155,6 +157,8 @@ body, html {
 	float: left;
 	padding-right: 1em;
 }
+
+
 
 .bg {
 background-color: #def;
@@ -176,7 +180,6 @@ li {
 	height: 10em;
 	border: 1px solid rgba(0,0,0,.1);
 	overflow: auto;
-	height: 10em;
 	background: radial-gradient(at top, rgba(0,0,0,.1), transparent 70%) no-repeat;
 	background-size: 100% 15px;
 }
@@ -246,3 +249,40 @@ a:hover {
 	justify-content: center;
 }
 
+@media screen and (max-width: 700px) {
+	.image {
+		float: none;
+		padding-right: 0;
+		width: 100%;
+	}
+	.imageright {
+		float: none;
+		width: 100%;
+	}
+
+	.ingredients {
+		font-size: 1.5em;
+		padding-top: 1em;
+	}
+
+	.ulist {
+		max-height: 15em;
+		height: auto;
+	}
+
+	.websitelink {
+		display: none;
+	}
+
+	.title {
+		padding-right: 0;
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.tagline {
+		text-align: center;
+	}
+
+
+}
