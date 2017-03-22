@@ -65,7 +65,9 @@ body, html {
 
 a {
 	text-decoration: none;
-	color: #424e54;
+	color: #424e54;	
+
+	
 }
 
 a:hover {
@@ -253,12 +255,25 @@ h1 {
 	background-repeat: no-repeat;
 }
 
+.aonbluesans {
+	color: #424e54;
+	text-decoration: none;
+	background: linear-gradient(#424e54, #424e54) no-repeat;
+	background-size: 0% 1px;
+	background-position: 0 0.9em;
+	text-shadow: .05em 0 #c1e5f5, -.05em 0 #c1e5f5;
+	transition-property: background-size;
+	transition-duration: .4s;
+	transition-timing-function: ease-out;
+	background-repeat: no-repeat;
+}
+
 .aonwhite {
 	color: #424e54;
 	text-decoration: none;
 	background: linear-gradient(#424e54, #424e54) no-repeat;
 	background-size: 0% 1px;
-	background-position: 0 1.15em;
+	background-position: 0 0.9em;
 	text-shadow: .05em 0 snow, -.05em 0 snow;
 	transition-property: background-size;
 	transition-duration: .4s;
