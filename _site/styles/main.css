@@ -2,7 +2,7 @@
 	background-color:rgb(193,229,245);
 	bottom: 0;
 	left: 0;
-	width: 100%;
+	right: 0;
 	padding-top: 10em;
 
 }
@@ -39,16 +39,6 @@ body, html {
 	padding: 4em 2em 4em 2em;
 }
 
-/*
-.websitelink:before {
-	content: "";
-	width: 1em;
-	height: 1em;
-	border-radius: 50%;
-	background-color: #ddeeff;
-	display: block;
-	margin: 0 auto 1.5em;
-}*/
 
 .menu {
 	font-family: 'Petit Formal Script', cursive; 
