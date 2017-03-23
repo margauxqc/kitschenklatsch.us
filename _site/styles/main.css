@@ -62,28 +62,29 @@ body, html {
 	font-size: 2em;
 	color: #424e54;	
 }
-
 a {
 	text-decoration: none;
-	color: #424e54;	
-
-	
 }
-
 a:hover {
 	color: #ff3e31;
 }
 
 .pagelink {
-	text-align: right;
-	color: #424e54;
-	text-decoration: none;
-	
+	display: flex;
+
 }
 
-.pagelinksocial {
+.butt1 {
+	flex-grow: 1;
+	text-align: right;
+	padding-left: 5em;
+	padding-top: .5em;
+}
+.butt2 {
+	flex-grow: 1;
 	text-align: right;
 }
+
 
 .text {
 	font-family: 'Josefin Sans', 'Didot';
@@ -117,6 +118,12 @@ a:hover {
 	font-family: 'Josefin Sans', sans-serif;
 	padding-bottom: 1em;
 	padding-left: 30px;
+}
+
+.mobilefooter {
+	font-family:'Petit Formal Script', cursive; 
+	font-size: 1.5em;
+	padding-bottom: 1em;
 }
 
 .content {
