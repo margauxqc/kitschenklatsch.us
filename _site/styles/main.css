@@ -187,11 +187,13 @@ a:hover {
 }
 .imageright {
 	float: right;
+	max-width: 50%;
 }
 
 .image {
 	float: left;
 	padding-right: 1em;
+	max-width: 50%;
 }
 
 
@@ -208,6 +210,17 @@ background-image: repeating-linear-gradient(45deg, transparent, transparent 23px
 
 li {
 	padding-bottom: 15px;
+}
+
+.ulistbig {
+	list-style: none;
+	padding-top: 0.5em;
+	height: auto;
+	max-height: 30em;
+	border: 1px solid rgba(0,0,0,.1);
+	overflow: auto;
+	background: radial-gradient(at top, rgba(0,0,0,.1), transparent 70%) no-repeat;
+	background-size: 100% 15px;
 }
 
 .ulist {
@@ -288,6 +301,9 @@ h1 {
 	background-repeat: no-repeat;
 }
 
+a {
+	color: #424e54;
+}
 a:hover {
 	background-size: 100% 1px;
 }
@@ -303,10 +319,12 @@ a:hover {
 		float: none;
 		padding-right: 0;
 		width: 100%;
+		max-width: none;
 	}
 	.imageright {
 		float: none;
 		width: 100%;
+		max-width: none;
 	}
 
 	.ingredients {
