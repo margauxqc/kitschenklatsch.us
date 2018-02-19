@@ -155,7 +155,7 @@ a:hover {
 }
 
 .border-line {
-	border-bottom: 1px solid rgba(0,0,0,.2);
+	border-bottom: 1px solid rgba(0,0,0,1);
 	box-shadow: 0px 10px 0 rgba(71,151,226,.4);
 	/*mix-blend-mode: multiply;*/
 }
